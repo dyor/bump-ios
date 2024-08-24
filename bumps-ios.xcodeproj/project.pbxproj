@@ -11,6 +11,8 @@
 		C28B38642C794FE40099FAFF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28B38632C794FE40099FAFF /* ContentView.swift */; };
 		C28B38662C794FE60099FAFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C28B38652C794FE60099FAFF /* Assets.xcassets */; };
 		C28B38692C794FE60099FAFF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C28B38682C794FE60099FAFF /* Preview Assets.xcassets */; };
+		C28B38722C7953EA0099FAFF /* Golfer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28B38712C7953EA0099FAFF /* Golfer.swift */; };
+		C28B38742C7954A30099FAFF /* Hole.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28B38732C7954A30099FAFF /* Hole.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		C28B38632C794FE40099FAFF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C28B38652C794FE60099FAFF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C28B38682C794FE60099FAFF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C28B38712C7953EA0099FAFF /* Golfer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Golfer.swift; sourceTree = "<group>"; };
+		C28B38732C7954A30099FAFF /* Hole.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hole.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +55,7 @@
 		C28B38602C794FE40099FAFF /* bumps-ios */ = {
 			isa = PBXGroup;
 			children = (
+				C28B386F2C79535E0099FAFF /* Models */,
 				C28B38612C794FE40099FAFF /* bumps_iosApp.swift */,
 				C28B38632C794FE40099FAFF /* ContentView.swift */,
 				C28B38652C794FE60099FAFF /* Assets.xcassets */,
@@ -65,6 +70,15 @@
 				C28B38682C794FE60099FAFF /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C28B386F2C79535E0099FAFF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C28B38712C7953EA0099FAFF /* Golfer.swift */,
+				C28B38732C7954A30099FAFF /* Hole.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +152,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				C28B38642C794FE40099FAFF /* ContentView.swift in Sources */,
+				C28B38742C7954A30099FAFF /* Hole.swift in Sources */,
+				C28B38722C7953EA0099FAFF /* Golfer.swift in Sources */,
 				C28B38622C794FE40099FAFF /* bumps_iosApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
