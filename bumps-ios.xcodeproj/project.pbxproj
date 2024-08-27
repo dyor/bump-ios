@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C210217C2C7E4C39007FDD86 /* BumpCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C210217B2C7E4C39007FDD86 /* BumpCalculator.swift */; };
 		C28B38622C794FE40099FAFF /* bumps_iosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28B38612C794FE40099FAFF /* bumps_iosApp.swift */; };
 		C28B38642C794FE40099FAFF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28B38632C794FE40099FAFF /* ContentView.swift */; };
 		C28B38662C794FE60099FAFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C28B38652C794FE60099FAFF /* Assets.xcassets */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C210217B2C7E4C39007FDD86 /* BumpCalculator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BumpCalculator.swift; sourceTree = "<group>"; };
 		C28B385E2C794FE40099FAFF /* bumps-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "bumps-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C28B38612C794FE40099FAFF /* bumps_iosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bumps_iosApp.swift; sourceTree = "<group>"; };
 		C28B38632C794FE40099FAFF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -75,6 +77,7 @@
 		C28B386F2C79535E0099FAFF /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				C210217B2C7E4C39007FDD86 /* BumpCalculator.swift */,
 				C28B38712C7953EA0099FAFF /* Golfer.swift */,
 				C28B38732C7954A30099FAFF /* Hole.swift */,
 			);
@@ -153,6 +156,7 @@
 			files = (
 				C28B38642C794FE40099FAFF /* ContentView.swift in Sources */,
 				C28B38742C7954A30099FAFF /* Hole.swift in Sources */,
+				C210217C2C7E4C39007FDD86 /* BumpCalculator.swift in Sources */,
 				C28B38722C7953EA0099FAFF /* Golfer.swift in Sources */,
 				C28B38622C794FE40099FAFF /* bumps_iosApp.swift in Sources */,
 			);
